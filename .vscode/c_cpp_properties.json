@@ -1,0 +1,28 @@
+{
+    "version": 4,
+    "configurations": [
+        {
+            "name": "Linux",
+            "includePath": [
+                "${workspaceFolder}/include",                    // Your project's header files
+                "${workspaceFolder}/googletest/googletest/include",  // GoogleTest headers
+                "/usr/include/c++/10",                            // System include paths (adjust version as needed)
+                "/usr/include"                                    // System include paths (adjust version as needed)
+            ],
+            "defines": [],
+            "compilerPath": "/usr/bin/g++",                         // Your compiler path
+            "cStandard": "c11",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "linux-gcc-x64",
+            "browse": {
+                "path": [
+                    "${workspaceFolder}/include",
+                    "${workspaceFolder}/googletest/googletest/include",
+                    "/usr/include/c++/10",                       // System include paths (adjust version as needed)
+                    "/usr/include"
+                ],
+                "limitSymbolsToIncludedHeaders": true
+            }
+        }
+    ]
+}
